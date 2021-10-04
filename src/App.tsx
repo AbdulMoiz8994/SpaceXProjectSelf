@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import {NextLaunchCont,LaunchesCont} from './components/index'
+import {NextLaunchCont,LaunchesCont,LaunchesDetails} from './components/index'
 
 function App() {
   return (
     <div className="App">
       <NextLaunchCont/>
       <LaunchesCont/>
+      <LaunchesDetails/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {NextLaunchCont,LaunchesCont,LaunchesDetails} from './components/index'
+import {NextLaunchCont,LaunchesCont,LaunchesDetails,EventsCont} from './components/index'
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
       <NextLaunchCont/>
       <LaunchesCont/>
       <LaunchesDetails/>
+      <EventsCont/>
+      
     </div>
   );
 }

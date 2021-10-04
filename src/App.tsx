@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {NextLaunchCont,LaunchesCont,LaunchesDetails,EventsCont} from './components/index'
+import {NextLaunchCont,LaunchesCont,LaunchesDetails,EventsCont,CompanyInfoCont} from './components/index'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <LaunchesCont/>
       <LaunchesDetails/>
       <EventsCont/>
-      
+         <CompanyInfoCont/>
     </div>
   );
 }

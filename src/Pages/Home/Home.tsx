@@ -1,9 +1,12 @@
 import React from 'react'
+import {NextLaunchCont} from '../../components/NextLaunch/index'
+import Container from '@material-ui/core/Container'
+
 
 export const Home = () => {
     return (
-        <div>
-        <h1>Home Page</h1>
-        </div>
+       <Container>
+    <NextLaunchCont/>
+       </Container>
     )
 }

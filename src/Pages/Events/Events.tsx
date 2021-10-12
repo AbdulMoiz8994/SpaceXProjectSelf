@@ -1,9 +1,10 @@
 import React from 'react'
+import {EventsCont} from '../../components/Events/index'
 
 export const Events = () => {
     return (
-        <div>
-            <h1>Events page</h1>
-        </div>
+        <section>
+            <EventsCont/>
+        </section>
     )
 }

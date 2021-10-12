@@ -1,9 +1,10 @@
 import React from 'react'
+import {CompanyInfoCont} from '../../components/About/index'
 
 export const About = () => {
     return (
         <div>
-            <h1>About page</h1>
+            <CompanyInfoCont/>
         </div>
     )
 }

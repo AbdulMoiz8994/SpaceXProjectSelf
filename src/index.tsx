@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Client} from './graphqlConfig/apolloconfig'
 import {ApolloProvider} from '@apollo/client'
+import {BrowserRouter} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
     <ApolloProvider client={Client}>
+      <BrowserRouter>
     <App />
+    </BrowserRouter>
     </ApolloProvider>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,0 +1,7 @@
+.mainNavbarDiv{
+    background-color: black !important;
+}
+.container{
+    display: flex !important;
+    justify-content: space-between !important;
+}
